@@ -1,4 +1,4 @@
-package com.company.palindromeNumber;
+package com.company.code;
 
 public class PalindromeNumber {
     public static boolean isPalindrome(int x) {
@@ -7,9 +7,7 @@ public class PalindromeNumber {
             for (int i = x; i !=0; i /= 10) {
                 isPalindrome = isPalindrome * 10 + i % 10;
             }
-            if(isPalindrome==x){
-                return true;
-            }
+            return isPalindrome == x;
         }
         return false;
     }

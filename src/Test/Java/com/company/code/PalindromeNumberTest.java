@@ -1,4 +1,4 @@
-package com.company.palindromeNumber;
+package com.company.code;
 
 import org.junit.jupiter.api.Test;
 
