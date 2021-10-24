@@ -8,8 +8,9 @@ public class RemoveElement {
         for(int i:nums) {
             //check if i is val, if not thats good and we continue
             if(i != val) {
-                //you need index++ so it moves onto the next val in array
-                nums[index++] = i;
+                //increments index to return the size
+                nums[index] = nums[i];
+                index++;
             }
         }
         return index;
