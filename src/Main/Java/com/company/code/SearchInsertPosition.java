@@ -14,5 +14,7 @@ public class SearchInsertPosition {
             if(nums[mid] > target) right = mid - 1;
         }
         return left;
+        //[1, 2, 3, 4, 5, 6] target = 6
+        //remember left is 0 not 1
     }
 }
