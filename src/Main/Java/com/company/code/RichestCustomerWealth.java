@@ -7,10 +7,9 @@ public class RichestCustomerWealth {
         for(int i=0; i<accounts.length;i++) {
             int temp=0;
             for(int j=0; j<accounts[i].length;j++) {
-                richest = richest + accounts[i][j];
+                temp = temp + accounts[i][j];
             }
-            if(temp>richest)
-            {
+            if(temp>richest) {
                 richest=temp;
             }
         }
